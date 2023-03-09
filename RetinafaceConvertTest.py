@@ -87,7 +87,7 @@ if __name__ == '__main__':
     # Create RKNN object
     rknn = RKNN()
 
-    NEED_BUILD_MODEL = False
+    NEED_BUILD_MODEL = True
     if NEED_BUILD_MODEL:
         print('--> config model')
         rknn.config(reorder_channel='2 1 0', mean_values=[[104, 117, 123]], std_values=[[1, 1, 1]],

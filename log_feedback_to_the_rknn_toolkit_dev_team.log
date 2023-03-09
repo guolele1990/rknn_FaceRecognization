@@ -1,0 +1,735 @@
+D Using CPPUTILS: True
+I Start importing onnx...
+W Call onnx.optimizer.optimize fail, skip optimize
+I Current ONNX Model use ir_version 4 opset_version 9
+I Call RKNN onnx optimize fail, skip optimize
+D Calc tensor Initializer_onnx::MatMul_344 (1024, 128)
+D Calc tensor Initializer_onnx::Reshape_343 (2,)
+D Calc tensor Initializer_onnx::Conv_340 (1024,)
+D Calc tensor Initializer_onnx::Conv_339 (1024, 1024, 1, 1)
+D Calc tensor Initializer_onnx::Conv_337 (1024,)
+D Calc tensor Initializer_onnx::Conv_336 (1024, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_334 (1024,)
+D Calc tensor Initializer_onnx::Conv_333 (1024, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_331 (512,)
+D Calc tensor Initializer_onnx::Conv_330 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_328 (512,)
+D Calc tensor Initializer_onnx::Conv_327 (512, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_325 (512,)
+D Calc tensor Initializer_onnx::Conv_324 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_322 (512,)
+D Calc tensor Initializer_onnx::Conv_321 (512, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_319 (512,)
+D Calc tensor Initializer_onnx::Conv_318 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_316 (512,)
+D Calc tensor Initializer_onnx::Conv_315 (512, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_313 (512,)
+D Calc tensor Initializer_onnx::Conv_312 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_310 (512,)
+D Calc tensor Initializer_onnx::Conv_309 (512, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_307 (512,)
+D Calc tensor Initializer_onnx::Conv_306 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_304 (512,)
+D Calc tensor Initializer_onnx::Conv_303 (512, 512, 1, 1)
+D Calc tensor Initializer_onnx::Conv_301 (512,)
+D Calc tensor Initializer_onnx::Conv_300 (512, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_298 (512,)
+D Calc tensor Initializer_onnx::Conv_297 (512, 256, 1, 1)
+D Calc tensor Initializer_onnx::Conv_295 (256,)
+D Calc tensor Initializer_onnx::Conv_294 (256, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_292 (256,)
+D Calc tensor Initializer_onnx::Conv_291 (256, 256, 1, 1)
+D Calc tensor Initializer_onnx::Conv_289 (256,)
+D Calc tensor Initializer_onnx::Conv_288 (256, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_286 (256,)
+D Calc tensor Initializer_onnx::Conv_285 (256, 128, 1, 1)
+D Calc tensor Initializer_onnx::Conv_283 (128,)
+D Calc tensor Initializer_onnx::Conv_282 (128, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_280 (128,)
+D Calc tensor Initializer_onnx::Conv_279 (128, 128, 1, 1)
+D Calc tensor Initializer_onnx::Conv_277 (128,)
+D Calc tensor Initializer_onnx::Conv_276 (128, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_274 (128,)
+D Calc tensor Initializer_onnx::Conv_273 (128, 64, 1, 1)
+D Calc tensor Initializer_onnx::Conv_271 (64,)
+D Calc tensor Initializer_onnx::Conv_270 (64, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_268 (64,)
+D Calc tensor Initializer_onnx::Conv_267 (64, 32, 1, 1)
+D Calc tensor Initializer_onnx::Conv_265 (32,)
+D Calc tensor Initializer_onnx::Conv_264 (32, 1, 3, 3)
+D Calc tensor Initializer_onnx::Conv_262 (32,)
+D Calc tensor Initializer_onnx::Conv_261 (32, 3, 3, 3)
+D Calc tensor Conv_input.4 (1, 32, 80, 80)
+D Calc tensor Clip_input.8 (1, 32, 80, 80)
+D Calc tensor Conv_input.16 (1, 32, 80, 80)
+D Calc tensor Clip_input.20 (1, 32, 80, 80)
+D Calc tensor Conv_input.28 (1, 64, 80, 80)
+D Calc tensor Clip_input.32 (1, 64, 80, 80)
+D Calc tensor Conv_input.40 (1, 64, 40, 40)
+D Calc tensor Clip_input.44 (1, 64, 40, 40)
+D Calc tensor Conv_input.52 (1, 128, 40, 40)
+D Calc tensor Clip_input.56 (1, 128, 40, 40)
+D Calc tensor Conv_input.64 (1, 128, 40, 40)
+D Calc tensor Clip_input.68 (1, 128, 40, 40)
+D Calc tensor Conv_input.76 (1, 128, 40, 40)
+D Calc tensor Clip_input.80 (1, 128, 40, 40)
+D Calc tensor Conv_input.88 (1, 128, 20, 20)
+D Calc tensor Clip_input.92 (1, 128, 20, 20)
+D Calc tensor Conv_input.100 (1, 256, 20, 20)
+D Calc tensor Clip_input.104 (1, 256, 20, 20)
+D Calc tensor Conv_input.112 (1, 256, 20, 20)
+D Calc tensor Clip_input.116 (1, 256, 20, 20)
+D Calc tensor Conv_input.124 (1, 256, 20, 20)
+D Calc tensor Clip_input.128 (1, 256, 20, 20)
+D Calc tensor Conv_input.136 (1, 256, 10, 10)
+D Calc tensor Clip_input.140 (1, 256, 10, 10)
+D Calc tensor Conv_input.148 (1, 512, 10, 10)
+D Calc tensor Clip_input.152 (1, 512, 10, 10)
+D Calc tensor Conv_input.160 (1, 512, 10, 10)
+D Calc tensor Clip_input.164 (1, 512, 10, 10)
+D Calc tensor Conv_input.172 (1, 512, 10, 10)
+D Calc tensor Clip_input.176 (1, 512, 10, 10)
+D Calc tensor Conv_input.184 (1, 512, 10, 10)
+D Calc tensor Clip_input.188 (1, 512, 10, 10)
+D Calc tensor Conv_input.196 (1, 512, 10, 10)
+D Calc tensor Clip_input.200 (1, 512, 10, 10)
+D Calc tensor Conv_input.208 (1, 512, 10, 10)
+D Calc tensor Clip_input.212 (1, 512, 10, 10)
+D Calc tensor Conv_input.220 (1, 512, 10, 10)
+D Calc tensor Clip_input.224 (1, 512, 10, 10)
+D Calc tensor Conv_input.232 (1, 512, 10, 10)
+D Calc tensor Clip_input.236 (1, 512, 10, 10)
+D Calc tensor Conv_input.244 (1, 512, 10, 10)
+D Calc tensor Clip_input.248 (1, 512, 10, 10)
+D Calc tensor Conv_input.256 (1, 512, 10, 10)
+D Calc tensor Clip_input.260 (1, 512, 10, 10)
+D Calc tensor Conv_input.268 (1, 512, 10, 10)
+D Calc tensor Clip_input.272 (1, 512, 10, 10)
+D Calc tensor Conv_input.280 (1, 512, 5, 5)
+D Calc tensor Clip_input.284 (1, 512, 5, 5)
+D Calc tensor Conv_input.292 (1, 1024, 5, 5)
+D Calc tensor Clip_input.296 (1, 1024, 5, 5)
+D Calc tensor Conv_input.304 (1, 1024, 5, 5)
+D Calc tensor Clip_input.308 (1, 1024, 5, 5)
+D Calc tensor Conv_input.316 (1, 1024, 5, 5)
+D Calc tensor Clip_input.320 (1, 1024, 5, 5)
+D Calc tensor GlobalAveragePool_onnx::Reshape_250 (1, 1024, 1, 1)
+D Calc tensor Reshape_input.324 (1, 1024)
+D Calc tensor MatMul_input.328 (1, 128)
+D Calc tensor Initializer_last_bn.running_var (128,)
+D Calc tensor Initializer_last_bn.running_mean (128,)
+D Calc tensor Initializer_last_bn.bias (128,)
+D Calc tensor Initializer_last_bn.weight (128,)
+D Calc tensor BatchNormalization_output0 (1, 128)
+D import clients finished
+I build output layer attach_BatchNormalization_BatchNormalization_57:out0
+I Try match layer: BatchNormalization_BatchNormalization_57:out0
+I Match r_bn_v6, convert ONNX layer: ['BatchNormalization_BatchNormalization_57', 'Initializer_last_bn.weight', 'Initializer_last_bn.bias', 'Initializer_last_bn.running_mean', 'Initializer_last_bn.running_var'](OPs: ['BatchNormalization', 'Constant_0', 'Constant_1', 'Constant_2', 'Constant_3']) to ['batchnormalize']
+I Try match layer: MatMul_MatMul_56:out0
+I Match r_mm, convert ONNX layer: ['MatMul_MatMul_56', 'Initializer_onnx::MatMul_344'](OPs: ['MatMul', 'Constant_0']) to ['fullconnect']
+I Try match layer: Reshape_Reshape_55:out0
+I Match r_rsp_v5, convert ONNX layer: ['Reshape_Reshape_55', 'Initializer_onnx::Reshape_343'](OPs: ['Reshape', 'Constant_0']) to ['reshape']
+I Try match layer: GlobalAveragePool_GlobalAveragePool_54:out0
+I Match r_global_avgpool, convert ONNX layer: ['GlobalAveragePool_GlobalAveragePool_54'](OPs: ['GlobalAveragePool']) to ['pooling']
+I Try match layer: Clip_Clip_53:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_53'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_52:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_52', 'Initializer_onnx::Conv_339', 'Initializer_onnx::Conv_340'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_51:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_51'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_50:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_50', 'Initializer_onnx::Conv_336', 'Initializer_onnx::Conv_337'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_49:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_49'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_48:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_48', 'Initializer_onnx::Conv_333', 'Initializer_onnx::Conv_334'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_47:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_47'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_46:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_46', 'Initializer_onnx::Conv_330', 'Initializer_onnx::Conv_331'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_45:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_45'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_44:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_44', 'Initializer_onnx::Conv_327', 'Initializer_onnx::Conv_328'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_43:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_43'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_42:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_42', 'Initializer_onnx::Conv_324', 'Initializer_onnx::Conv_325'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_41:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_41'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_40:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_40', 'Initializer_onnx::Conv_321', 'Initializer_onnx::Conv_322'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_39:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_39'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_38:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_38', 'Initializer_onnx::Conv_318', 'Initializer_onnx::Conv_319'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_37:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_37'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_36:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_36', 'Initializer_onnx::Conv_315', 'Initializer_onnx::Conv_316'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_35:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_35'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_34:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_34', 'Initializer_onnx::Conv_312', 'Initializer_onnx::Conv_313'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_33:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_33'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_32:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_32', 'Initializer_onnx::Conv_309', 'Initializer_onnx::Conv_310'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_31:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_31'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_30:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_30', 'Initializer_onnx::Conv_306', 'Initializer_onnx::Conv_307'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_29:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_29'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_28:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_28', 'Initializer_onnx::Conv_303', 'Initializer_onnx::Conv_304'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_27:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_27'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_26:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_26', 'Initializer_onnx::Conv_300', 'Initializer_onnx::Conv_301'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_25:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_25'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_24:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_24', 'Initializer_onnx::Conv_297', 'Initializer_onnx::Conv_298'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_23:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_23'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_22:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_22', 'Initializer_onnx::Conv_294', 'Initializer_onnx::Conv_295'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_21:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_21'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_20:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_20', 'Initializer_onnx::Conv_291', 'Initializer_onnx::Conv_292'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_19:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_19'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_18:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_18', 'Initializer_onnx::Conv_288', 'Initializer_onnx::Conv_289'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_17:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_17'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_16:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_16', 'Initializer_onnx::Conv_285', 'Initializer_onnx::Conv_286'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_15:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_15'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_14:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_14', 'Initializer_onnx::Conv_282', 'Initializer_onnx::Conv_283'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_13:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_13'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_12:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_12', 'Initializer_onnx::Conv_279', 'Initializer_onnx::Conv_280'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_11:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_11'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_10:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_10', 'Initializer_onnx::Conv_276', 'Initializer_onnx::Conv_277'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_9:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_9'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_8:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_8', 'Initializer_onnx::Conv_273', 'Initializer_onnx::Conv_274'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_7:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_7'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_6:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_6', 'Initializer_onnx::Conv_270', 'Initializer_onnx::Conv_271'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_5:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_5'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_4:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_4', 'Initializer_onnx::Conv_267', 'Initializer_onnx::Conv_268'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_3:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_3'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_2:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_2', 'Initializer_onnx::Conv_264', 'Initializer_onnx::Conv_265'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Clip_Clip_1:out0
+I Match r_clip_to_relun, convert ONNX layer: ['Clip_Clip_1'](OPs: ['Clip']) to ['relun']
+I Try match layer: Conv_Conv_0:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_0', 'Initializer_onnx::Conv_261', 'Initializer_onnx::Conv_262'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I build input layer input0:out0
+D connect MatMul_MatMul_56_2 0  ~ BatchNormalization_BatchNormalization_57_1 0
+D connect Reshape_Reshape_55_3 0  ~ MatMul_MatMul_56_2 0
+D connect GlobalAveragePool_GlobalAveragePool_54_4 0  ~ Reshape_Reshape_55_3 0
+D connect Clip_Clip_53_5 0  ~ GlobalAveragePool_GlobalAveragePool_54_4 0
+D connect Conv_Conv_52_6 0  ~ Clip_Clip_53_5 0
+D connect Clip_Clip_51_7 0  ~ Conv_Conv_52_6 0
+D connect Conv_Conv_50_8 0  ~ Clip_Clip_51_7 0
+D connect Clip_Clip_49_9 0  ~ Conv_Conv_50_8 0
+D connect Conv_Conv_48_10 0  ~ Clip_Clip_49_9 0
+D connect Clip_Clip_47_11 0  ~ Conv_Conv_48_10 0
+D connect Conv_Conv_46_12 0  ~ Clip_Clip_47_11 0
+D connect Clip_Clip_45_13 0  ~ Conv_Conv_46_12 0
+D connect Conv_Conv_44_14 0  ~ Clip_Clip_45_13 0
+D connect Clip_Clip_43_15 0  ~ Conv_Conv_44_14 0
+D connect Conv_Conv_42_16 0  ~ Clip_Clip_43_15 0
+D connect Clip_Clip_41_17 0  ~ Conv_Conv_42_16 0
+D connect Conv_Conv_40_18 0  ~ Clip_Clip_41_17 0
+D connect Clip_Clip_39_19 0  ~ Conv_Conv_40_18 0
+D connect Conv_Conv_38_20 0  ~ Clip_Clip_39_19 0
+D connect Clip_Clip_37_21 0  ~ Conv_Conv_38_20 0
+D connect Conv_Conv_36_22 0  ~ Clip_Clip_37_21 0
+D connect Clip_Clip_35_23 0  ~ Conv_Conv_36_22 0
+D connect Conv_Conv_34_24 0  ~ Clip_Clip_35_23 0
+D connect Clip_Clip_33_25 0  ~ Conv_Conv_34_24 0
+D connect Conv_Conv_32_26 0  ~ Clip_Clip_33_25 0
+D connect Clip_Clip_31_27 0  ~ Conv_Conv_32_26 0
+D connect Conv_Conv_30_28 0  ~ Clip_Clip_31_27 0
+D connect Clip_Clip_29_29 0  ~ Conv_Conv_30_28 0
+D connect Conv_Conv_28_30 0  ~ Clip_Clip_29_29 0
+D connect Clip_Clip_27_31 0  ~ Conv_Conv_28_30 0
+D connect Conv_Conv_26_32 0  ~ Clip_Clip_27_31 0
+D connect Clip_Clip_25_33 0  ~ Conv_Conv_26_32 0
+D connect Conv_Conv_24_34 0  ~ Clip_Clip_25_33 0
+D connect Clip_Clip_23_35 0  ~ Conv_Conv_24_34 0
+D connect Conv_Conv_22_36 0  ~ Clip_Clip_23_35 0
+D connect Clip_Clip_21_37 0  ~ Conv_Conv_22_36 0
+D connect Conv_Conv_20_38 0  ~ Clip_Clip_21_37 0
+D connect Clip_Clip_19_39 0  ~ Conv_Conv_20_38 0
+D connect Conv_Conv_18_40 0  ~ Clip_Clip_19_39 0
+D connect Clip_Clip_17_41 0  ~ Conv_Conv_18_40 0
+D connect Conv_Conv_16_42 0  ~ Clip_Clip_17_41 0
+D connect Clip_Clip_15_43 0  ~ Conv_Conv_16_42 0
+D connect Conv_Conv_14_44 0  ~ Clip_Clip_15_43 0
+D connect Clip_Clip_13_45 0  ~ Conv_Conv_14_44 0
+D connect Conv_Conv_12_46 0  ~ Clip_Clip_13_45 0
+D connect Clip_Clip_11_47 0  ~ Conv_Conv_12_46 0
+D connect Conv_Conv_10_48 0  ~ Clip_Clip_11_47 0
+D connect Clip_Clip_9_49 0  ~ Conv_Conv_10_48 0
+D connect Conv_Conv_8_50 0  ~ Clip_Clip_9_49 0
+D connect Clip_Clip_7_51 0  ~ Conv_Conv_8_50 0
+D connect Conv_Conv_6_52 0  ~ Clip_Clip_7_51 0
+D connect Clip_Clip_5_53 0  ~ Conv_Conv_6_52 0
+D connect Conv_Conv_4_54 0  ~ Clip_Clip_5_53 0
+D connect Clip_Clip_3_55 0  ~ Conv_Conv_4_54 0
+D connect Conv_Conv_2_56 0  ~ Clip_Clip_3_55 0
+D connect Clip_Clip_1_57 0  ~ Conv_Conv_2_56 0
+D connect Conv_Conv_0_58 0  ~ Clip_Clip_1_57 0
+D connect input0_59 0  ~ Conv_Conv_0_58 0
+D connect BatchNormalization_BatchNormalization_57_1 0  ~ attach_BatchNormalization_BatchNormalization_57/out0_0 0
+D Process input0_59 ...
+D RKNN output shape(input): (1 160 160 3)
+D Tensor @input0_59:out0 type: float32
+D Process Conv_Conv_0_58 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_0_58:out0 type: float32
+D Process Clip_Clip_1_57 ...
+D RKNN output shape(relun): (1 80 80 32)
+D Tensor @Clip_Clip_1_57:out0 type: float32
+D Process Conv_Conv_2_56 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_2_56:out0 type: float32
+D Process Clip_Clip_3_55 ...
+D RKNN output shape(relun): (1 80 80 32)
+D Tensor @Clip_Clip_3_55:out0 type: float32
+D Process Conv_Conv_4_54 ...
+D RKNN output shape(convolution): (1 80 80 64)
+D Tensor @Conv_Conv_4_54:out0 type: float32
+D Process Clip_Clip_5_53 ...
+D RKNN output shape(relun): (1 80 80 64)
+D Tensor @Clip_Clip_5_53:out0 type: float32
+D Process Conv_Conv_6_52 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_6_52:out0 type: float32
+D Process Clip_Clip_7_51 ...
+D RKNN output shape(relun): (1 40 40 64)
+D Tensor @Clip_Clip_7_51:out0 type: float32
+D Process Conv_Conv_8_50 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_8_50:out0 type: float32
+D Process Clip_Clip_9_49 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_9_49:out0 type: float32
+D Process Conv_Conv_10_48 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_10_48:out0 type: float32
+D Process Clip_Clip_11_47 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_11_47:out0 type: float32
+D Process Conv_Conv_12_46 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_12_46:out0 type: float32
+D Process Clip_Clip_13_45 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_13_45:out0 type: float32
+D Process Conv_Conv_14_44 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_14_44:out0 type: float32
+D Process Clip_Clip_15_43 ...
+D RKNN output shape(relun): (1 20 20 128)
+D Tensor @Clip_Clip_15_43:out0 type: float32
+D Process Conv_Conv_16_42 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_16_42:out0 type: float32
+D Process Clip_Clip_17_41 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_17_41:out0 type: float32
+D Process Conv_Conv_18_40 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_18_40:out0 type: float32
+D Process Clip_Clip_19_39 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_19_39:out0 type: float32
+D Process Conv_Conv_20_38 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_20_38:out0 type: float32
+D Process Clip_Clip_21_37 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_21_37:out0 type: float32
+D Process Conv_Conv_22_36 ...
+D RKNN output shape(convolution): (1 10 10 256)
+D Tensor @Conv_Conv_22_36:out0 type: float32
+D Process Clip_Clip_23_35 ...
+D RKNN output shape(relun): (1 10 10 256)
+D Tensor @Clip_Clip_23_35:out0 type: float32
+D Process Conv_Conv_24_34 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_24_34:out0 type: float32
+D Process Clip_Clip_25_33 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_25_33:out0 type: float32
+D Process Conv_Conv_26_32 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_26_32:out0 type: float32
+D Process Clip_Clip_27_31 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_27_31:out0 type: float32
+D Process Conv_Conv_28_30 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_28_30:out0 type: float32
+D Process Clip_Clip_29_29 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_29_29:out0 type: float32
+D Process Conv_Conv_30_28 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_30_28:out0 type: float32
+D Process Clip_Clip_31_27 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_31_27:out0 type: float32
+D Process Conv_Conv_32_26 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_32_26:out0 type: float32
+D Process Clip_Clip_33_25 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_33_25:out0 type: float32
+D Process Conv_Conv_34_24 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_34_24:out0 type: float32
+D Process Clip_Clip_35_23 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_35_23:out0 type: float32
+D Process Conv_Conv_36_22 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_36_22:out0 type: float32
+D Process Clip_Clip_37_21 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_37_21:out0 type: float32
+D Process Conv_Conv_38_20 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_38_20:out0 type: float32
+D Process Clip_Clip_39_19 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_39_19:out0 type: float32
+D Process Conv_Conv_40_18 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_40_18:out0 type: float32
+D Process Clip_Clip_41_17 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_41_17:out0 type: float32
+D Process Conv_Conv_42_16 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_42_16:out0 type: float32
+D Process Clip_Clip_43_15 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_43_15:out0 type: float32
+D Process Conv_Conv_44_14 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_44_14:out0 type: float32
+D Process Clip_Clip_45_13 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_45_13:out0 type: float32
+D Process Conv_Conv_46_12 ...
+D RKNN output shape(convolution): (1 5 5 512)
+D Tensor @Conv_Conv_46_12:out0 type: float32
+D Process Clip_Clip_47_11 ...
+D RKNN output shape(relun): (1 5 5 512)
+D Tensor @Clip_Clip_47_11:out0 type: float32
+D Process Conv_Conv_48_10 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_48_10:out0 type: float32
+D Process Clip_Clip_49_9 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_49_9:out0 type: float32
+D Process Conv_Conv_50_8 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_50_8:out0 type: float32
+D Process Clip_Clip_51_7 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_51_7:out0 type: float32
+D Process Conv_Conv_52_6 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_52_6:out0 type: float32
+D Process Clip_Clip_53_5 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_53_5:out0 type: float32
+D Process GlobalAveragePool_GlobalAveragePool_54_4 ...
+D RKNN output shape(pooling): (1 1 1 1024)
+D Tensor @GlobalAveragePool_GlobalAveragePool_54_4:out0 type: float32
+D Process Reshape_Reshape_55_3 ...
+D RKNN output shape(reshape): (1 1024)
+D Tensor @Reshape_Reshape_55_3:out0 type: float32
+D Process MatMul_MatMul_56_2 ...
+D RKNN output shape(fullconnect): (1 128)
+D Tensor @MatMul_MatMul_56_2:out0 type: float32
+D Process BatchNormalization_BatchNormalization_57_1 ...
+D RKNN output shape(batchnormalize): (1 128)
+D Tensor @BatchNormalization_BatchNormalization_57_1:out0 type: float32
+D Process attach_BatchNormalization_BatchNormalization_57/out0_0 ...
+D RKNN output shape(output): (1 128)
+D Tensor @attach_BatchNormalization_BatchNormalization_57/out0_0:out0 type: float32
+I Build torch_jit complete.
+D Optimizing network with EBL_Linear_large_feature_seperate, HFD_cumsum_to_conv2d, HFD_conv1d_to_2d, HFD_conv1d_dilation_opt, HFD_buffer_operation_excute_immediately, HFD_argmin_argmax_output_dequant, HFD_bn1d_to_bn2d, HFD_matmul_shape_hack, HP_deconvolution_optimize
+I Start C2T Switcher...
+D Optimizing network with broadcast_op, remove_cast
+D insert permute Reshape_Reshape_55_3_RKNN_mark_perm_60 before Reshape_Reshape_55_3
+I End C2T Switcher...
+D Optimizing network with force_1d_tensor, swapper, merge_duplicate_quantize_dequantize, merge_layer, auto_fill_bn, auto_fill_l2normalizescale, auto_fill_instancenormalize, resize_nearest_transformer, eltwise_transform, auto_fill_multiply, auto_fill_zero_bias, proposal_opt_import, special_add_to_conv2d
+D Merge ['MatMul_MatMul_56_2', 'BatchNormalization_BatchNormalization_57_1'] (fullconnect)
+I End importing onnx...
+I Generate input meta ...
+I Load input meta
+I Generate input meta ...
+D import clients finished
+I Load net...
+I Load data...
+I Load input meta
+D Process input0_59 ...
+D RKNN output shape(input): (1 160 160 3)
+D Tensor @input0_59:out0 type: float32
+D Process Conv_Conv_0_58 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_0_58:out0 type: float32
+D Process Clip_Clip_1_57 ...
+D RKNN output shape(relun): (1 80 80 32)
+D Tensor @Clip_Clip_1_57:out0 type: float32
+D Process Conv_Conv_2_56 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_2_56:out0 type: float32
+D Process Clip_Clip_3_55 ...
+D RKNN output shape(relun): (1 80 80 32)
+D Tensor @Clip_Clip_3_55:out0 type: float32
+D Process Conv_Conv_4_54 ...
+D RKNN output shape(convolution): (1 80 80 64)
+D Tensor @Conv_Conv_4_54:out0 type: float32
+D Process Clip_Clip_5_53 ...
+D RKNN output shape(relun): (1 80 80 64)
+D Tensor @Clip_Clip_5_53:out0 type: float32
+D Process Conv_Conv_6_52 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_6_52:out0 type: float32
+D Process Clip_Clip_7_51 ...
+D RKNN output shape(relun): (1 40 40 64)
+D Tensor @Clip_Clip_7_51:out0 type: float32
+D Process Conv_Conv_8_50 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_8_50:out0 type: float32
+D Process Clip_Clip_9_49 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_9_49:out0 type: float32
+D Process Conv_Conv_10_48 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_10_48:out0 type: float32
+D Process Clip_Clip_11_47 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_11_47:out0 type: float32
+D Process Conv_Conv_12_46 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_12_46:out0 type: float32
+D Process Clip_Clip_13_45 ...
+D RKNN output shape(relun): (1 40 40 128)
+D Tensor @Clip_Clip_13_45:out0 type: float32
+D Process Conv_Conv_14_44 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_14_44:out0 type: float32
+D Process Clip_Clip_15_43 ...
+D RKNN output shape(relun): (1 20 20 128)
+D Tensor @Clip_Clip_15_43:out0 type: float32
+D Process Conv_Conv_16_42 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_16_42:out0 type: float32
+D Process Clip_Clip_17_41 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_17_41:out0 type: float32
+D Process Conv_Conv_18_40 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_18_40:out0 type: float32
+D Process Clip_Clip_19_39 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_19_39:out0 type: float32
+D Process Conv_Conv_20_38 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_20_38:out0 type: float32
+D Process Clip_Clip_21_37 ...
+D RKNN output shape(relun): (1 20 20 256)
+D Tensor @Clip_Clip_21_37:out0 type: float32
+D Process Conv_Conv_22_36 ...
+D RKNN output shape(convolution): (1 10 10 256)
+D Tensor @Conv_Conv_22_36:out0 type: float32
+D Process Clip_Clip_23_35 ...
+D RKNN output shape(relun): (1 10 10 256)
+D Tensor @Clip_Clip_23_35:out0 type: float32
+D Process Conv_Conv_24_34 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_24_34:out0 type: float32
+D Process Clip_Clip_25_33 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_25_33:out0 type: float32
+D Process Conv_Conv_26_32 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_26_32:out0 type: float32
+D Process Clip_Clip_27_31 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_27_31:out0 type: float32
+D Process Conv_Conv_28_30 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_28_30:out0 type: float32
+D Process Clip_Clip_29_29 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_29_29:out0 type: float32
+D Process Conv_Conv_30_28 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_30_28:out0 type: float32
+D Process Clip_Clip_31_27 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_31_27:out0 type: float32
+D Process Conv_Conv_32_26 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_32_26:out0 type: float32
+D Process Clip_Clip_33_25 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_33_25:out0 type: float32
+D Process Conv_Conv_34_24 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_34_24:out0 type: float32
+D Process Clip_Clip_35_23 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_35_23:out0 type: float32
+D Process Conv_Conv_36_22 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_36_22:out0 type: float32
+D Process Clip_Clip_37_21 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_37_21:out0 type: float32
+D Process Conv_Conv_38_20 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_38_20:out0 type: float32
+D Process Clip_Clip_39_19 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_39_19:out0 type: float32
+D Process Conv_Conv_40_18 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_40_18:out0 type: float32
+D Process Clip_Clip_41_17 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_41_17:out0 type: float32
+D Process Conv_Conv_42_16 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_42_16:out0 type: float32
+D Process Clip_Clip_43_15 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_43_15:out0 type: float32
+D Process Conv_Conv_44_14 ...
+D RKNN output shape(convolution): (1 10 10 512)
+D Tensor @Conv_Conv_44_14:out0 type: float32
+D Process Clip_Clip_45_13 ...
+D RKNN output shape(relun): (1 10 10 512)
+D Tensor @Clip_Clip_45_13:out0 type: float32
+D Process Conv_Conv_46_12 ...
+D RKNN output shape(convolution): (1 5 5 512)
+D Tensor @Conv_Conv_46_12:out0 type: float32
+D Process Clip_Clip_47_11 ...
+D RKNN output shape(relun): (1 5 5 512)
+D Tensor @Clip_Clip_47_11:out0 type: float32
+D Process Conv_Conv_48_10 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_48_10:out0 type: float32
+D Process Clip_Clip_49_9 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_49_9:out0 type: float32
+D Process Conv_Conv_50_8 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_50_8:out0 type: float32
+D Process Clip_Clip_51_7 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_51_7:out0 type: float32
+D Process Conv_Conv_52_6 ...
+D RKNN output shape(convolution): (1 5 5 1024)
+D Tensor @Conv_Conv_52_6:out0 type: float32
+D Process Clip_Clip_53_5 ...
+D RKNN output shape(relun): (1 5 5 1024)
+D Tensor @Clip_Clip_53_5:out0 type: float32
+D Process GlobalAveragePool_GlobalAveragePool_54_4 ...
+D RKNN output shape(pooling): (1 1 1 1024)
+D Tensor @GlobalAveragePool_GlobalAveragePool_54_4:out0 type: float32
+D Process Reshape_Reshape_55_3_RKNN_mark_perm_60 ...
+D RKNN output shape(permute): (1 1024 1 1)
+D Tensor @Reshape_Reshape_55_3_RKNN_mark_perm_60:out0 type: float32
+D Process Reshape_Reshape_55_3 ...
+D RKNN output shape(reshape): (1 1024)
+D Tensor @Reshape_Reshape_55_3:out0 type: float32
+D Process MatMul_MatMul_56_2 ...
+D RKNN output shape(fullconnect): (1 128)
+D Tensor @MatMul_MatMul_56_2:out0 type: float32
+D Process attach_BatchNormalization_BatchNormalization_57/out0_0 ...
+D RKNN output shape(output): (1 128)
+D Tensor @attach_BatchNormalization_BatchNormalization_57/out0_0:out0 type: float32
+I Build torch_jit complete.
+I Initialzing network optimizer by D:\ProgramData\Anaconda3\envs\rknn2\lib\site-packages\rknn\config\npu_config\PUMA ...
+D Optimizing network with merge_ximum, qnt_adjust_coef, multiply_transform, add_extra_io, format_input_ops, auto_fill_zero_bias, conv_kernel_transform, twod_op_transform, strip_op, extend_unstack_split, merge_layer, transform_layer, broadcast_op, strip_op, auto_fill_reshape_zero, adjust_output_attrs, insert_dtype_converter
+I Start T2C Switcher...
+D Optimizing network with broadcast_op, t2c_fc
+D insert permute Reshape_Reshape_55_3_RKNN_mark_perm_60_RKNN_mark_perm_1 before Reshape_Reshape_55_3_RKNN_mark_perm_60
+D remove permute Reshape_Reshape_55_3_RKNN_mark_perm_60_RKNN_mark_perm_1
+D remove permute Reshape_Reshape_55_3_RKNN_mark_perm_60
+I End T2C Switcher...
+D Optimizing network with merge_ximum, qnt_adjust_coef, multiply_transform, add_extra_io, format_input_ops, auto_fill_zero_bias, conv_kernel_transform, twod_op_transform, strip_op, extend_unstack_split, merge_layer, transform_layer, broadcast_op, strip_op, auto_fill_reshape_zero, adjust_output_attrs, insert_dtype_converter
+D Optimizing network with conv_1xn_transform, proposal_opt, c2drv_convert_axis, c2drv_convert_shape, c2drv_convert_array, c2drv_cast_dtype, c2drv_trans_data
+I Building data ...
+I Packing data ...
+D Packing Conv_Conv_0_58 ...
+D Packing Conv_Conv_10_48 ...
+D Packing Conv_Conv_12_46 ...
+D Packing Conv_Conv_14_44 ...
+D Packing Conv_Conv_16_42 ...
+D Packing Conv_Conv_18_40 ...
+D Packing Conv_Conv_20_38 ...
+D Packing Conv_Conv_22_36 ...
+D Packing Conv_Conv_24_34 ...
+D Packing Conv_Conv_26_32 ...
+D Packing Conv_Conv_28_30 ...
+D Packing Conv_Conv_2_56 ...
+D Packing Conv_Conv_30_28 ...
+D Packing Conv_Conv_32_26 ...
+D Packing Conv_Conv_34_24 ...
+D Packing Conv_Conv_36_22 ...
+D Packing Conv_Conv_38_20 ...
+D Packing Conv_Conv_40_18 ...
+D Packing Conv_Conv_42_16 ...
+D Packing Conv_Conv_44_14 ...
+D Packing Conv_Conv_46_12 ...
+D Packing Conv_Conv_48_10 ...
+D Packing Conv_Conv_4_54 ...
+D Packing Conv_Conv_50_8 ...
+D Packing Conv_Conv_52_6 ...
+D Packing Conv_Conv_6_52 ...
+D Packing Conv_Conv_8_50 ...
+D Packing MatMul_MatMul_56_2 ...
+D Disable rknn op statistic.
+D output tensor id = 0, name = BatchNormalization_BatchNormalization_57/out0_0
+D input tensor id = 1, name = input0_59
+I Build config finished.
+D target set by user is: rv1126
+D Starting ntp or adb, target is RV1126, host is None
+I Device [d81352278dd4de31] use ntb.
+D Start ntp...
+I npu_transfer_proxy pid: 14320, status: running
+E Catch exception when setting inputs.
+E Traceback (most recent call last):
+E   File "rknn\api\rknn_base.py", line 1024, in rknn.api.rknn_base.RKNNBase.inference
+E   File "rknn\api\rknn_base.py", line 946, in rknn.api.rknn_base.RKNNBase.set_inputs
+E   File "rknn\api\rknn_runtime.py", line 483, in rknn.api.rknn_runtime.RKNNRuntime.set_inputs
+E Exception: Set inputs failed. error code: RKNN_ERR_PARAM_INVALID
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues
